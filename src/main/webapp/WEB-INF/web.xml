@@ -8,8 +8,16 @@
         <servlet-name>sakura</servlet-name>
         <servlet-class>com.litiantian.week2.demo.HelloWorkServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.litiantian.week3.demo.LifeCycleServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>sakura</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/life</url-pattern>
     </servlet-mapping>
 </web-app>
