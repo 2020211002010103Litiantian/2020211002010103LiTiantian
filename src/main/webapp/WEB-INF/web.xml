@@ -10,7 +10,7 @@
     </servlet>
     <servlet>
         <servlet-name>LifeCycleServlet</servlet-name>
-        <servlet-class>com.litiantian.week3.demo.LifeCycleServlet</servlet-class>
+        <servlet-class>com.litiantian.week3.demo.LifeCydeSerlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>sakura</servlet-name>

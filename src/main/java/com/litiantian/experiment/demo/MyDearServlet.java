@@ -23,15 +23,16 @@ public class MyDearServlet extends HttpServlet {
 
         out.print("<html>\n" +
                 "<head>\n" +
-                "<meta charset=\"UTF-8\">"+
+                "<meta charset=\"UTF-8\">" +
                 "<title>MyDearServlet</title>\n" +
                 "</head>\n" +
                 "<body>\n" +
-                "    name:"+name+"<br/>\n" +
-                "    submit:"+submit+"<br/>\n"+
-                "    class:"+_class+"<br/>\n" +
-                "    ID:"+ID+"<br/>\n" +
+                "    name:" + name + "<br/>\n" +
+                "    submit:" + submit + "<br/>\n" +
+                "    class:" + _class + "<br/>\n" +
+                "    ID:" + ID + "<br/>\n" +
                 "</body>\n" +
                 "</html>");
         out.close();
+    }
 }
